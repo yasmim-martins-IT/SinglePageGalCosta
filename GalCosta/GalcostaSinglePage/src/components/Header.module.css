@@ -1,5 +1,28 @@
-general_config{
+
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 50px;
+}
+
+.general_config{
     background-color: black;
     display: flex ;
     align-items: center;
+    gap : 10px ; 
+}
+
+.logospotfy {
+    height: 50px;
+    width: 50px;
+    padding: 10px 80px;
+}
+.logospotfy:hover {
+    transition: 90ms;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
 }
