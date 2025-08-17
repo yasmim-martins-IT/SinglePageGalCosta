@@ -12,7 +12,7 @@ function Header() {
   };
   return (
     <header className={styles.general_config}>
-      <img className={styles.logospotfy} src={logo} alt="galcosta picture" />
+      <Link to="/"><img className={styles.logospotfy} src={logo} alt="galcosta picture" /></Link>
 
       <SearchBar className= {styles.searchbar} onSearch={handleSearch} />
     
@@ -20,7 +20,7 @@ function Header() {
     <div className={styles.navbar} >
       
       <nav className={styles.general_config}>
-        <Link to="/">Home</Link>
+        <Link to="/">Discografia</Link>
         <Link to="/hits">Maiores Sucessos</Link>
       </nav>
    

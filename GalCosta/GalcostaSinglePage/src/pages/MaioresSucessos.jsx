@@ -24,6 +24,7 @@ export default function Hits() {
   { id: 7, title: "Aquarela do Brasil", subtitle: "Gal Costa", cover: aquarela},
   { id: 8, title: "Barato Total", subtitle: "Gal Costa", cover: barato },
   { id: 9, title: "Baby Gal (Ao Vivo)", subtitle: "Gal Costa", cover: baby},
+
   { id: 10, title: "Festa do Interior (Ao Vivo)", subtitle: "Gal Costa", cover: festa }
       ];
       
