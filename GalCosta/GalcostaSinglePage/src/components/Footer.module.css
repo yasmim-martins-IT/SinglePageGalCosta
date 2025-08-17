@@ -1,0 +1,42 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  color: white;
+  padding: 20px 40px;
+  font-family: sans-serif;
+  flex-wrap: wrap;
+  border-top: solid 1px white;
+}
+
+.logo h2 {
+  margin: 0;
+}
+
+.links a {
+  color: #b3b3b3;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.links a:hover {
+  color: #1db954;
+}
+
+.socials {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.icon:hover {
+  color: #1db954;
+}
+
