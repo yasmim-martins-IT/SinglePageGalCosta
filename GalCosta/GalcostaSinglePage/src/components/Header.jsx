@@ -20,7 +20,7 @@ function Header() {
     <div className={styles.navbar} >
       
       <nav className={styles.general_config}>
-        <Link to="/">Discografia</Link>
+        <Link to="/discografia">Discografia</Link>
         <Link to="/hits">Maiores Sucessos</Link>
       </nav>
    

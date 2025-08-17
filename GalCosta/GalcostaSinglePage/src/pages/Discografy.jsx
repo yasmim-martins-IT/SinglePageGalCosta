@@ -1,6 +1,6 @@
 import React from "react";
 import galAlbums from "../dados/dados";
-import styles from "./Discografy.module.css"; // ✅ usando CSS Modules
+import styles from "./Discografy.module.css";
 
 export default function Discography() {
   return (
