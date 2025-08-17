@@ -1,0 +1,15 @@
+.general_config{
+    background-color: black;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+  
+}
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vh;
+}
+
+
